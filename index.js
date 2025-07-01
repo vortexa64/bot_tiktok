@@ -6,7 +6,7 @@ puppeteer.use(StealthPlugin())
 
 const videoURL = 'https://www.tiktok.com/@rara_princes/video/7522175254991572230'
 const proxies = fs.readFileSync('proxies.txt', 'utf-8').split('\n').filter(Boolean)
-const TOTAL_VIEWS = 100
+const TOTAL_VIEWS = 10
 
 let viewCount = 0
 
